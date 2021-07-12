@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private float _inputZ;
     public float speed = 3f;
     private float _movementX;
+    public int playerHealth = 30;
     // Start is called before the first frame update
     void Start()
     {

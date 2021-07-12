@@ -5,6 +5,7 @@ using UnityEngine;
 public class ArrowCollision : MonoBehaviour
 {
     private GameObject _arrow;
+    public GameObject player;
     private Vector3 _arrowCollision;
     private Vector3 _arrowDirection;
     private void OnTriggerEnter(Collider other)
@@ -22,11 +23,12 @@ public class ArrowCollision : MonoBehaviour
         {
             ReflectArrow();
         }
+        
     }
 
     private void DamagePlayer()
     {
-        
+      //  GetComponent<PlayerController.FindObjectOfType>
     }
     private void ReflectArrow()
     {
