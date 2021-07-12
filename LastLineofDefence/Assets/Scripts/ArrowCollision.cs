@@ -10,6 +10,13 @@ public class ArrowCollision : MonoBehaviour
     private Vector3 _arrowDirection;
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag == "Ground")
+        {
+            return;
+        }
+
+        Debug.Log("OnTriggerEntered");
+        
         if (other.gameObject.tag == "Player")
         {
             /*
@@ -19,19 +26,24 @@ public class ArrowCollision : MonoBehaviour
             //Destroy(other.gameObject);
             DamagePlayer();
         }
+        
         if (other.gameObject.tag == "Shield")
         {
             ReflectArrow();
         }
         
+        Debug.Log("TriggerEnded");
+        
     }
 
     private void DamagePlayer()
     {
+        Debug.Log("OW! Player hurt");
       //  GetComponent<PlayerController.FindObjectOfType>
     }
     private void ReflectArrow()
     {
+        Debug.Log("BING, Saved it");
         //_arrowCollision = _arrow.GetComponent<Transform.>
     }
 }
