@@ -8,15 +8,16 @@ public class ArrowCollision : MonoBehaviour
     public GameObject player;
     private Vector3 _arrowCollision;
     private Vector3 _arrowDirection;
-    private void OnTriggerEnter(Collider other)
+
+    void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "Ground")
         {
             return;
         }
 
-        Debug.Log("OnTriggerEntered");
-        
+        Debug.Log("OnCollisionEntered");
+
         if (other.gameObject.tag == "Player")
         {
             /*
@@ -26,15 +27,15 @@ public class ArrowCollision : MonoBehaviour
             //Destroy(other.gameObject);
             DamagePlayer();
         }
-        
+
         if (other.gameObject.tag == "Shield")
         {
             ReflectArrow();
         }
         
-        Debug.Log("TriggerEnded");
-        
+        Debug.Log("CollisionEnded");
     }
+   
 
     private void DamagePlayer()
     {
