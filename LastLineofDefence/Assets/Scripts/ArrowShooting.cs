@@ -31,6 +31,7 @@ public class ArrowShooting : MonoBehaviour
          if (inRange && _bulletDelayComplete)
          {
              Rigidbody bullet = (Rigidbody)Instantiate(projectile, transform.position + transform.forward, transform.rotation);
+             //bullet.transform.LookAt(player);
              bullet.AddForce(transform.forward * bulletImpulse, ForceMode.Impulse);
              Destroy(bullet.gameObject, 2);
          }

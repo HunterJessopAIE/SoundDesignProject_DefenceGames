@@ -4,47 +4,77 @@ using UnityEngine;
 
 public class ArrowCollision : MonoBehaviour
 {
-    private GameObject _arrow;
+    public Rigidbody arrow;
     public GameObject player;
-    private Vector3 _arrowCollision;
+    private Vector3 _arrowSpeed;
     private Vector3 _arrowDirection;
+    private Vector3 _arrowRotation;
 
     void OnCollisionEnter(Collision other)
     {
+        /*
+         * HITS THE GROUND
+         */
         if (other.gameObject.tag == "Ground")
         {
+            arrow.constraints = RigidbodyConstraints.FreezeAll;
+            arrow.velocity = Vector3.zero;
+            arrow.angularVelocity = Vector3.zero;
             return;
         }
-
-        Debug.Log("OnCollisionEntered");
-
-        if (other.gameObject.tag == "Player")
+        /*
+         *  HITS THE ENEMY
+         */
+        if (other.gameObject.tag == "Warrior")
         {
-            /*
-             * Use this line to test collision
-             */
-
-            //Destroy(other.gameObject);
-            DamagePlayer();
+            arrow.constraints = RigidbodyConstraints.FreezeAll;
+            arrow.velocity = Vector3.zero;
+            arrow.angularVelocity = Vector3.zero;
+            DamageEnemy();
         }
+
+        /*
+         * HITS THE SHIELD
+         */
+        Debug.Log("====SHIELD CHECK====");
 
         if (other.gameObject.tag == "Shield")
         {
             ReflectArrow();
         }
+
         
-        Debug.Log("CollisionEnded");
+        /*
+         * HITS THE PLAYER
+         */
+        else if (other.gameObject.tag == "Player")
+        {
+            DamagePlayer();
+        }
+ 
     }
    
 
     private void DamagePlayer()
     {
-        Debug.Log("OW! Player hurt");
+        Debug.Log("OW!");
       //  GetComponent<PlayerController.FindObjectOfType>
     }
     private void ReflectArrow()
     {
         Debug.Log("BING, Saved it");
-        //_arrowCollision = _arrow.GetComponent<Transform.>
+        _arrowSpeed = arrow.velocity;
+        _arrowDirection = arrow.transform.position;
+        //_arrowRotation = arrow.transform.r
+        arrow.velocity = Vector3.zero;
+        arrow.angularVelocity = Vector3.zero;
+        //arrow.transform.Rotate
+       
+    }
+
+    private void DamageEnemy()
+    {
+        Debug.Log("Enemy Hit");
+        //Destroy(other.gameObject);
     }
 }
