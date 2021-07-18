@@ -6,10 +6,20 @@ public class ArrowCollision : MonoBehaviour
 {
     public Rigidbody arrow;
     public GameObject player;
+    public Rigidbody shield;
     private Vector3 _arrowSpeed;
     private Vector3 _arrowDirection;
     private Vector3 _arrowRotation;
 
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Triggered");
+        if (other.tag == "Shield")
+        {
+            ReflectArrow();
+        }
+        Debug.Log("Failed");
+    }
     void OnCollisionEnter(Collision other)
     {
         /*
@@ -42,8 +52,12 @@ public class ArrowCollision : MonoBehaviour
         {
             ReflectArrow();
         }
+        Debug.Log("====SHEILD CHECK 2====");
+        if (other.rigidbody == shield)
+        {
+            ReflectArrow();
+        }
 
-        
         /*
          * HITS THE PLAYER
          */
@@ -62,7 +76,7 @@ public class ArrowCollision : MonoBehaviour
     }
     private void ReflectArrow()
     {
-        Debug.Log("BING, Saved it");
+        Debug.Log("BING");
         _arrowSpeed = arrow.velocity;
         _arrowDirection = arrow.transform.position;
         //_arrowRotation = arrow.transform.r
