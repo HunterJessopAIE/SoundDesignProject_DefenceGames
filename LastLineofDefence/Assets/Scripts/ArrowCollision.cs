@@ -67,6 +67,5 @@ public class ArrowCollision : MonoBehaviour
     private void DamageEnemy()
     {
         Debug.Log("Enemy Hit");
-        
     }
 }
