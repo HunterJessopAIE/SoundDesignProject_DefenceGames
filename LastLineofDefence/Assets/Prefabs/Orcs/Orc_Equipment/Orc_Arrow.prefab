@@ -112,9 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 545d034b79a3ba746ab6689b81a4f99c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrow: {fileID: -6889988123202354277}
-  player: {fileID: 8866775751195182441, guid: 2a11585ee0081514699ae6cbafefecd7, type: 3}
-  shield: {fileID: 1473668173225295925, guid: 3a0a1245b9f2b7e48be79c6a723d5340, type: 3}
+  arrow: {fileID: 755373587399129111}
 --- !u!65 &5207020364279351244
 BoxCollider:
   m_ObjectHideFlags: 0
