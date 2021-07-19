@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
     // Components
     public Rigidbody playerRigidBody;
     private float _inputX;
-    private float _inputZ;
     public float speed = 3f;
     private float _movementX;
     public int playerHealth = 30;
