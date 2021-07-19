@@ -219,6 +219,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &232895232
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.8096973
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.30956754
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.1532006
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.64796656
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7616688
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 279.223
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365780628495793243, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_Name
+      value: Thorn Bush Asset (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
 --- !u!1 &810812858
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,6 +871,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66c00d4c92d7da34bb251ba8da5a85b5, type: 3}
+--- !u!1001 &1142383850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.763
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.30956754
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365780628495793243, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_Name
+      value: Thorn Bush Asset (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
 --- !u!1 &1359501104 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9002402000382835711, guid: 66c00d4c92d7da34bb251ba8da5a85b5, type: 3}
@@ -1030,6 +1144,63 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1874422449950188407, guid: 2a11585ee0081514699ae6cbafefecd7, type: 3}
   m_PrefabInstance: {fileID: 1874422451747133608}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1878086783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.30956802
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365780628495793243, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_Name
+      value: Thorn Bush Asset (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
 --- !u!4 &1926147822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1874422450375702086, guid: 2a11585ee0081514699ae6cbafefecd7, type: 3}
@@ -1407,6 +1578,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae55ae941e2723148b478856f84be73e, type: 3}
+--- !u!1001 &7529600648929995087
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.67910004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.871
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988691761830930145, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365780628495793243, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
+      propertyPath: m_Name
+      value: Thorn Bush Asset
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb72db2b5e88bd74ea50808542d15075, type: 3}
 --- !u!1 &8206361182042342464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4988752760270908351, guid: 3b07a4d721d460e4d996bd2597e90493, type: 3}
