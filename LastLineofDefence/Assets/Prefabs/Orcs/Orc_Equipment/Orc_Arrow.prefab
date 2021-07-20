@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 755373587396929239}
   - component: {fileID: -6889988123202354277}
   - component: {fileID: -2490137011667891811}
+  - component: {fileID: 2502463471486237106}
   - component: {fileID: 5207020364279351244}
   m_Layer: 0
   m_Name: Orc_Arrow
@@ -113,6 +114,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrow: {fileID: 755373587399129111}
+--- !u!114 &2502463471486237106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755373587399129111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7bd7dce46929e43ae75f9944b9fac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 10
 --- !u!65 &5207020364279351244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -121,7 +135,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755373587399129111}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.14697252, y: 1.1153286, z: 0.14697248}
