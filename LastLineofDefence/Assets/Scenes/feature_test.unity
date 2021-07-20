@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &208570907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1675,7 +1675,6 @@ MonoBehaviour:
   score: 0
   scoreText: {fileID: 575155564}
   endGameScreen: {fileID: 208570906}
-  outcomeText: {fileID: 0}
 --- !u!4 &1577438633
 Transform:
   m_ObjectHideFlags: 0
@@ -2249,7 +2248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6051854926490269115, guid: ae55ae941e2723148b478856f84be73e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6051854926538410293, guid: ae55ae941e2723148b478856f84be73e, type: 3}
       propertyPath: m_SizeDelta.x

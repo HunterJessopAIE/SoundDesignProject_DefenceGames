@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     public TMP_Text scoreText;
 
     public GameObject endGameScreen;
-    public TMP_Text outcomeText;
 
     // Start is called before the first frame update
     void Start()
