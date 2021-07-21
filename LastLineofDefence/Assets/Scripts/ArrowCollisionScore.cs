@@ -12,7 +12,7 @@ public class ArrowCollisionScore : MonoBehaviour
         _gameManager = FindObjectOfType<GameManager>();
     }
 
-    private void OnTriggerEnter(Collider collider)
+    private void OnCollisionEnter(Collision collider)
     {
         if (collider.gameObject.tag == "Shield")
         {

@@ -61,8 +61,22 @@ public class ArrowCollision : MonoBehaviour
     private void ReflectArrow()
     {
         Debug.Log("BING");
-        
-       
+        int soundChoice = Random.Range(1, 4);
+        int soundCheck = soundChoice;
+        Debug.Log("Sound: " + soundCheck.ToString() + " should play");
+
+        if (soundChoice == 1){
+            FindObjectOfType<SoundManager>().Play("Arrow hitting shield #1");
+        }
+        if (soundChoice == 2)
+        {
+            FindObjectOfType<SoundManager>().Play("Arrow hitting shield #2");
+        }
+        if (soundChoice == 3)
+        {
+            FindObjectOfType<SoundManager>().Play("Arrow hitting shield #3");
+        }
+
     }
 
     private void DamageEnemy()
