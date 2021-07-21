@@ -80,3 +80,21 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: Water
+    clip: {fileID: 8300000, guid: b9c610b5e5ebba549826472b438dc7ea, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Wind
+    clip: {fileID: 8300000, guid: 4fbf53d0d1fed3b40a4a5a19b69c682a, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 1
+    source: {fileID: 0}
+  - name: ShieldBash
+    clip: {fileID: 8300000, guid: 00f09cf0d84985d45b37f05a9f2b5c7d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
